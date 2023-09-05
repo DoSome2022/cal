@@ -2,9 +2,8 @@ import { MongoClient, ObjectId } from "mongodb"
 import Booking from "../models/Booking.js"
 import dotenv from "dotenv";
 import { query } from "express";
-import gulp  from "gulp";
-import browserSync from "browser-sync";
-browserSync.create();
+
+
 dotenv.config();
 
 
