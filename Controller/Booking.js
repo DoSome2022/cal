@@ -112,3 +112,11 @@ export const  GetHomePage = (req,res)=>{
 export const GetAboutPage = (req,res)=>{
     res.render('about')
 }
+
+export const GetFunding = (req,res)=>{
+    res.render('funding')
+}
+
+export const GetIntroduceR = (req,res)=>{
+    res.render('introduceR')
+}

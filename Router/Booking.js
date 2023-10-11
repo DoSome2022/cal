@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import { TestData ,PostDatas, GetDatas, DelDatas, GetHomePage, GetAboutPage } from "../Controller/Booking.js"; 
+import { TestData ,PostDatas, GetDatas, DelDatas, GetHomePage, GetAboutPage, GetFunding, GetIntroduceR } from "../Controller/Booking.js"; 
 
 
 router.get('/init',TestData)
@@ -15,5 +15,8 @@ router.get('/', GetHomePage)
 
 router.get('/about', GetAboutPage)
 
+router.get('/funding', GetFunding)
+
+router.get('/introduceR', GetIntroduceR)
 
 export default router
